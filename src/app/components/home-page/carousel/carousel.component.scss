@@ -1,0 +1,12 @@
+.carousel-caption{
+    margin: 2rem auto 0;
+    width: 400px;
+    max-width: 100%;
+    top: 10px;
+
+    & h3, p{margin-bottom: 1.5rem;}
+
+    &__btn button:not(:last-child){ margin-right: 3rem; }
+
+    h3{ text-transform: uppercase; font-size: 2rem;}
+}
