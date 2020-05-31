@@ -3,6 +3,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 
-
-@import "./components/buttons";
+@import "./layout/global";
+@import "./components/main";
 @import "./global/typography";

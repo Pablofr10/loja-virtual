@@ -1,0 +1,50 @@
+body{
+    background-color: blue;
+}
+
+
+.marca-demo{
+    margin-top: 2rem;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+
+    &__container{
+        width: 230px;
+        margin: 10px;
+    }
+
+    & figure img{
+        max-width: 100%;
+        width: 220px;
+        opacity: 1;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+
+        &:hover{
+            opacity: .6;
+            cursor: pointer;
+        }
+    }
+
+    &__info{
+
+        margin-bottom: 2rem;
+
+        p{ 
+            margin-top: 10px;
+    
+            &::after{
+                content: "";
+                width: 50px;
+                height: 10px;
+                background: black;
+            }
+        }
+
+    }
+
+    
+}

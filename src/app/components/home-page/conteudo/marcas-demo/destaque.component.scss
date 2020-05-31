@@ -1,0 +1,82 @@
+.destaque {
+    height: 500px;
+    z-index: 999;
+    margin-top: 20px;
+
+    & figure {
+        position: absolute;
+        padding-top: 3rem;
+        z-index: 1000;
+
+        & img {
+            max-width: 100%;
+            width: 600px;
+        }
+    }
+
+    &__conteudo {
+        width: calc(100% - 500px);
+        float: right;
+        height: 100%;
+        z-index: 999;
+        position: relative;
+        background: rgb(72, 76, 96);
+        background: radial-gradient(circle,
+                rgba(72, 76, 96, 0.9500175070028011) 68%,
+                rgba(12, 13, 36, 0.7763480392156863) 94%);
+
+        & section {
+            width: 500px;
+            margin: 100px auto 0 auto;
+
+            & h2 {
+                color: #ffff;
+
+                
+            }
+
+            & span {
+                color: white;
+                padding-top: 20px;
+                text-align: justify;
+                line-height: 1.2rem;
+                opacity: .8;
+
+                &::before{
+                    content: "";
+                    margin: 1rem 0 1rem 0;
+                    width: 80px;
+                    height: 3px;
+                    display: block;
+                    background: white;
+                }
+                
+            }
+
+            & button{
+                margin-top: 60px;
+            }
+        }
+    }
+}
+
+.promocao{
+    margin-top: 2rem;
+
+    & section{
+        margin: 10px auto;
+        padding: auto;
+
+        & h2::after{
+            content: '';
+            margin: 25px auto;
+            display: block;
+            width: 90px;
+            height: 3px;
+            background: #000000;
+        }
+    }
+
+
+
+}

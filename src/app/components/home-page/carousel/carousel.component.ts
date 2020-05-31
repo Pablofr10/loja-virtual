@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <carousel>
     <slide>
-      <img src="../../../../assets/images/carousel/1.jpg" alt="first slide" style="display: block; width: 100%;">
+      <img src="assets/images/carousel/1.jpg" alt="first slide" style="display: block; width: 100%;">
       <div class="carousel-caption">
         <h3>As melhores tendências do mundo da moda.</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </slide>
     <slide>
-      <img src="../../../../assets/images/carousel/2.jpg" alt="second slide" style="display: block; width: 100%;">
+      <img src="assets/images/carousel/2.jpg" alt="second slide" style="display: block; width: 100%;">
       <div class="carousel-caption">
         <h3>As melhores tendências do mundo da moda.</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -28,7 +28,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </slide>
     <slide>
-      <img src="../../../../assets/images/carousel/3.jpg" alt="third slide" style="display: block; width: 100%;">
+      <img src="assets/images/carousel/3.jpg" alt="third slide" style="display: block; width: 100%;">
       <div class="carousel-caption">
         <h3>As melhores tendências do mundo da moda.</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -39,7 +39,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </slide>
     <slide>
-      <img src="../../../../assets/images/carousel/4.jpg" alt="third slide" style="display: block; width: 100%;">
+      <img src="assets/images/carousel/4.jpg" alt="third slide" style="display: block; width: 100%;">
       <div class="carousel-caption">
         <h3>As melhores tendências do mundo da moda.</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -50,7 +50,7 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </slide>
     <slide>
-      <img src="../../../../assets/images/carousel/5.jpg" alt="third slide" style="display: block; width: 100%;">
+      <img src="assets/images/carousel/5.jpg" alt="third slide" style="display: block; width: 100%;">
       <div class="carousel-caption">
         <h3>As melhores tendências do mundo da moda.</h3>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>

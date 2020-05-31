@@ -1,0 +1,19 @@
+<div class="container">
+  <h2 class="text-center">As melhores marcas você encontra aqui.</h2>
+  <div class="marca-demo">
+    <div class="marca-demo__container" *ngFor="let m of marcas; let i = index">
+      <figure>
+        <img [src]="m.image" alt="Demostração Marca" />
+      </figure>
+      <div class="text-center marca-demo__info">
+        <p>{{ m.info }}</p>
+        <b>{{ m.preco | currency: "BRL":"R$" }}</b>
+      </div>
+    </div>
+  </div>
+
+  <div class="buttons-marcas d-flex justify-content-around row">
+    <button class="btn-conteudo-dark col-5">Ir para os mais vendidos</button>
+    <button class="btn-conteudo-outline-dark col-5">Ir para os mais vendidos</button>
+  </div>
+</div>

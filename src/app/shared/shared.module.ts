@@ -7,6 +7,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedComponent } from './shared.component';
 import { AppRoutingModule } from '../app-routing.module';
+import { CarouselMarcasComponent } from '../components/home-page/carousel/carousel-marcas.component';
+import { ConteudoComponent } from '../components/home-page/conteudo/conteudo.component';
+import { MarcasDemoComponent } from '../components/home-page/conteudo/marcas-demo/marcas-demo.component';
+import { LOCALE_ID } from '@angular/core';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
+import { DestaqueComponent } from '../components/home-page/conteudo/marcas-demo/destaque.component';
+
+registerLocaleData(localePt);
 
 @NgModule({
   imports: [
@@ -17,6 +26,10 @@ import { AppRoutingModule } from '../app-routing.module';
   declarations: [
     SharedComponent,
     TopBarComponent,
+    CarouselMarcasComponent,
+    ConteudoComponent,
+    MarcasDemoComponent,
+    DestaqueComponent,
     BaseComponent,
     CarouselComponent,
     HomePageComponent
@@ -24,6 +37,8 @@ import { AppRoutingModule } from '../app-routing.module';
   exports: [
     TopBarComponent,
     BaseComponent
-  ]
+  ],
+
+  providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}]
 })
 export class SharedModule { }

@@ -1,0 +1,12 @@
+section{
+    background: rgba(102, 68, 14, 0.1);
+}
+
+.carousel_marcas{
+    height: 90px; 
+    flex-wrap: wrap;
+
+    & img{
+        width: 8vw;
+    }
+}
